@@ -1,0 +1,105 @@
+@import url(./root.css);
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.lh-123 {
+    line-height: 123.6%;
+}
+
+.lh-150 {
+    line-height: 150.6%;
+}
+
+.ff-work {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.mt-mb-73 {
+    padding: 73px 0 73px 0;
+}
+
+.home-btn {
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: white;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb{
+    background:  rgba(0, 212, 255, 1); 
+    border-radius: 50px;
+}
+.sm-wraper {
+    padding-top: 50px;
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+}
+
+.sm-wraper a:hover {
+    color: #FF5300;
+}
+
+.sidemenu {
+    height: 100%;
+    width: 0;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 241, 250, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: all 400ms linear;
+    /* padding-top: 60px; */
+}
+
+.sidemenu .close {
+    position: sticky;
+    top: 15px;
+    left: 200px;
+}
+
+#pg-content {
+    transition: all 200ms linear;
+}
+
+.bars {
+    cursor: pointer;
+}
+
+.header-area {
+    display: flex;
+    height: 80px;
+    z-index: 0;
+    background: #FFF;
+    box-shadow: 0px 15px 10px -9px rgba(0, 0, 0, 0.10);
+}
